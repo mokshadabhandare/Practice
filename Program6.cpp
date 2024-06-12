@@ -8,7 +8,7 @@ void Display()
 {
    for(int i=1;i<=7;i++)
    {
-        cout<<"*"<<endl;
+        cout<<"*";
    }
 }
 int main()
