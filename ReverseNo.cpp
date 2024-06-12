@@ -6,10 +6,18 @@ using namespace std;
 
 void Display()
 {
-    for(int i=5;i<=1;i--)
+   /* for(int i=5;i>=1;i--)
     {
-        cout<<"i"<<endl;
+        cout<<i<<" ";
     }
+    */
+   int i=5;
+
+   while(i>=1)
+   {
+    cout<<i<<" ";
+    i--;
+   }
 }
 int main()
 {
