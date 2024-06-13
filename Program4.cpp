@@ -9,7 +9,6 @@ void Display()
     {
         cout<<"Marvellous"<<endl;
     }
-
 }
 int main()
 {
