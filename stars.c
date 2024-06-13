@@ -3,7 +3,7 @@
 void Display(int ino)
 {
     int i=1;
-   while(ino>5)
+   while(ino<0)
    {
      printf("*");
      ino--;
