@@ -5,7 +5,7 @@ void Display (int iNo,int iFrequency)
    int i=0;
    for(i=0;i>iFrequency;i++)
    {
-    printf("Output",i);
+    printf("Output",i)
    }
 }
 int main()
