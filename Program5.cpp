@@ -3,9 +3,9 @@
 #include<iostream>
 using namespace std;
 
-bool checkDivisibleBy5And10(int iNo)
-{
-   if((iNo%5==0) && (iNo%10==0))
+bool checkDivisibleBy5And10(int iNo) //50 --->50%5==0 true 50%10==0 true
+{                                    //15---->15%5==0 true 15%10!=0 false
+   if((iNo%5==0) && (iNo%10==0))     //9---->9%5!=0 false
    {
     return true;
    }
