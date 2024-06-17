@@ -3,15 +3,17 @@
 #include<iostream>
 using namespace std;
 
-void  findFactors(int iNo)
+int SumOfFactors(int iNo)
 {
+    int iSum=0;
      for(int i=1;i<iNo;i++)
      {
-        if((iNo%i==0) && (i%2==0))
+        if(iNo%i==0) 
         {
-            cout<<i<<endl;
+            iSum=iSum+i;
         }
      }
+     return iSum;
 }
 int main()
 {
@@ -20,7 +22,10 @@ int main()
     cout<<"Enter the number"<<endl;
     cin>>iNo;
     
-    findFactors(iNo);
-
+    int iRet=0;
+    iRet=SumOfFactors(iNo);
+    
+    cout<<"Sum of factors is"<<iRet <<endl;
+    
     return 0;
 }
