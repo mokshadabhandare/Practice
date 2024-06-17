@@ -23,7 +23,7 @@ int main()
 
     iRet=findFactorial(iNo);
 
-    cout<<"Factorial of"<<iNo << "is" << iRet <<endl;
+    cout<<" Factorial of "<< iNo << " is " << iRet <<endl;
 
     return 0;
 }
