@@ -5,7 +5,13 @@ using namespace std;
 
 void  findFactors(int iNo)
 {
-
+     for(int i=1;i<iNo;i++)
+     {
+        if(iNo%i==0)
+        {
+            cout<<i<<endl;
+        }
+     }
 }
 int main()
 {
