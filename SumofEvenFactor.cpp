@@ -3,7 +3,7 @@
 using namespace std;
 
 int SumOfFactors(int iNo)
-
+{
     int iSum=0;
      for(int i=1;i<iNo;i++)
      {
