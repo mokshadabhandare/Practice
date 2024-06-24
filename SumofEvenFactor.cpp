@@ -1,4 +1,4 @@
-
+//write program to find factor of even and sum of factor
 #include<iostream>
 using namespace std;
 
