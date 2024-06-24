@@ -9,7 +9,8 @@ bool checkDivisibleBy5And10(int iNo) //50 --->50%5==0 true 50%10==0 true
    {
     return true;
    }
-   else{
+   else
+   {
     return false;
    }
 }
