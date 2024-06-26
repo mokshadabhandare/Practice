@@ -1,5 +1,4 @@
 //even or odd
-
 #include<iostream>
 //#include<boolen.h>
 using namespace std;
