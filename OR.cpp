@@ -1,5 +1,4 @@
 //write a program which is divisible by 5 or 10.
-
 #include<iostream>
 using namespace std;
 
